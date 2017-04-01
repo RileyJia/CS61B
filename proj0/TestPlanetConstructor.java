@@ -64,6 +64,8 @@ public class TestPlanetConstructor {
         checkStringEquals(imgFileName, p.imgFileName, "path to image");
 
         Planet pCopy = new Planet(p);
+	System.out.println(p.xxPos + " p.xxPos");
+	System.out.println(pCopy.xxPos + "pCopyxxPos");
         checkEquals(p.xxPos, pCopy.xxPos, "x");
         checkEquals(p.yyPos, pCopy.yyPos, "y");
         checkEquals(p.xxVel, pCopy.xxVel, "xVelocity");
