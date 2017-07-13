@@ -7,13 +7,7 @@ public class OffByN implements CharacterComparator{
 
     @Override
     public boolean equalChars(char x, char y){
-        if ( Math.abs( x - y ) == L){
-            return true;
-        }
-        else return false;
+        return Math.abs( x - y ) == L;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
