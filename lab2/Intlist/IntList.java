@@ -86,11 +86,11 @@ public class IntList {
         }
         dcatenate(A.rest, B);
         return A;
-        //  while (A.rest != null) {
-        //     A = A.rest;
-        //}
-        //A.rest = B;
-        //return A;
+        /*  while (A.rest != null) {
+             A = A.rest;
+        }
+        A.rest = B;
+        return A;*/
     }
 
     /**
